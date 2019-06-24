@@ -6,3 +6,12 @@ version = '1.0'
 archivesBaseName ='sentry-authlib'
 
 targetCompatibility = sourceCompatibility = 11
+
+repositories{
+	mavenCentral()
+	mavenLocal()
+}
+
+dependencies{
+	compile '
+}
